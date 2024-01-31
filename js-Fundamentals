@@ -1,0 +1,129 @@
+
+
+// LECTURE: Values and Variables.
+
+// let country = "pakistan";
+// let continent = "Asia";
+// let population = "250 millions";
+
+// console.log(  country , continent , population  )
+
+
+
+// LECTURE:  Data Types.
+
+// let pakistan = true;
+// let language;
+//  console.log(typeof Pakistan);
+//  console.log(typeof Population);
+//  console.log(typeof Country);
+//  console.log(typeof language);
+
+
+
+
+
+// LECTURE: let, const and var.
+
+// let Language = "pashto";
+// console.log(Language)
+
+
+
+// LECTURE: Basic Operators.
+
+// let Population = 25000000;
+// let splitIntoHalf = Population / 2;
+// console.log(splitIntoHalf)
+// Population++;
+// console.log(Population)
+
+
+
+
+
+
+
+// LECTURE: Strings and Template Literals.
+
+// let description = ' Portugal is in Europe, and its 11 million people speak portuguese ';
+// let Description = ` Portugal is in Europe, and its 11 million people speak portuguese `;
+
+
+
+
+
+
+
+// LECTURE: Taking Decisions: if / else Statements.
+
+// let pakistanPopulation = 25000000;
+// if ( pakistanPopulation > 330000000 ) {
+//     console.log( 'purtagol population is above average ')
+// }
+
+// else {
+//     console.log (' purtagal population is 22 million below average ')
+// }
+
+
+
+
+// let a = '9' - '5';
+// console.log(a)
+
+// let b = '19' - '13' + '17';
+// console.log(b)
+
+// let c = '19' - '13' + 17;
+// console.log(c)
+
+// let d = '123' < 57;
+// console.log(d)
+
+// let e = 5 + 6 + '4' + 9 - 4 - 2;
+// console.log(e)
+
+
+
+
+
+
+
+
+
+// The Complete JavaScript Course 7 .  LECTURE: Equality Operators: == vs. === .
+
+// let neighbour = prompt( ' How many nieghbour countries does your country have ' );
+
+// if ( neighbour === 1 ) {
+//     console.log('only one border')
+// }
+
+// else if (neighbour > 1) {
+//     console.log('more than one border')
+// }
+// else (neighbour <= 0); {
+//     console.log('No border')
+// }
+
+
+
+
+// LECTURE: Logical Operators.
+
+let countryLanguage = prompt(' please inter your country language ');
+let countryPopulation = prompt(' please inter your country population ');
+let countryType = prompt(' please inter your country type ');
+
+if ( countryLanguage = 'English'  && countryPopulation < 50000000  &&  countryType != 'island' ) {
+    console.log('you should live in purtagol')
+}
+
+else {
+    console.log(' purtagol does not meet your criteria ')
+}
+
+
+
+
